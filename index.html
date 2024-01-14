@@ -16,13 +16,13 @@
             </div>
         </div>
         <main>
-            <p style="padding: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eros donec ac odio tempor orci dapibus ultrices. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Consequat semper viverra nam libero justo laoreet sit amet cursus. Id ornare arcu odio ut. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Sed tempus urna et pharetra pharetra massa massa.</p>
+            <p style="padding: 15px; font-weight: bold;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eros donec ac odio tempor orci dapibus ultrices. Venenatis lectus magna fringilla urna porttitor rhoncus dolor. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut. Consequat semper viverra nam libero justo laoreet sit amet cursus. Id ornare arcu odio ut. Sit amet consectetur adipiscing elit duis tristique sollicitudin nibh sit. Sed tempus urna et pharetra pharetra massa massa.</p>
             <div class="form-background">
                 <form>
                     <h2 class="sign-up">Sign Up</h2>
                     <div class="input-container">
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first_name" id="first-name">
+                        <input type="text" name="first_name" id="first-name" required>
                     </div>
                     <div class="input-container">
                         <label for="last-name">LAST NAME</label>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="input-container">
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="input-container">
                         <label for="phone">PHONE NUMBER</label>
@@ -38,14 +38,17 @@
                     </div>
                     <div class="input-container">
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required>
                     </div>
                     <div class="input-container">
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm_password" id="confirm-password">
+                        <input type="password" name="confirm_password" id="confirm-password" required>
                     </div>
+
+                    <button type="submit">Create Account</button>
                 </form>
             </div>
+            <p style="padding:20px; font-family: Arial, Helvetica, sans-serif;">Already have an account? <span style="color: #596D48">Log in</span></p>
         </main>
     </div>
 </body>
